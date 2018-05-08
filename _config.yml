@@ -1,12 +1,12 @@
 title: The story of my experiments with code
 author: Anupam Tyagi
 email: anupam.ktyagi@gmail.com
-description: > # this means to ignore newlines until "twitter_username:"
-  The story of my experiments with code.
+#description: > # this means to ignore newlines until "twitter_username:"
+ # The story of my experiments with code.
 # social links
 twitter_username: anupamktyagi
 github_username:  anupamktyagi
-rss: rss
+#rss: rss
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
