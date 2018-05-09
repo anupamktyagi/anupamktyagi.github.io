@@ -14,7 +14,7 @@ A palindromic number reads the same both ways. The largest palindrome made from 
 
 My solution as I approached this is as below.
 
-{% highlight haskell %}
+{% highlight ruby %}
 
 listproduct x xs = map (*x) xs
 
@@ -40,7 +40,7 @@ This solution reeks of newbieness and while i am not quite proud of it, it has g
 The neat way to do this in haskell though is as follows, courtesy the haskell wiki (https://wiki.haskell.org/)
 
 
-{% highlight haskell %}
+{% highlight ruby %}
 maximum [x | y<-[100..999], z<-[y..999], let x=y*z, let s=show x, s==reverse s]
 {% endhighlight %}
 
@@ -49,7 +49,7 @@ maximum [x | y<-[100..999], z<-[y..999], let x=y*z, let s=show x, s==reverse s]
 A solution in F# will not be as elegant as this. A quick solution in F# can be
 
 
-{% highlight f# %}
+{% highlight ruby %}
 let threeDigitProds = [for x in [100..999] do for y in [x..999] -> x*y]
 let palindromes : seq<int>  = threeDigitProds
        |> Seq.filter(fun x -> 
